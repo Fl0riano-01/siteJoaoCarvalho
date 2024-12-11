@@ -1,0 +1,157 @@
+/*estilo geral da página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+/*estilo do corpo da página*/
+body{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background: #284f30;
+    width: 100%;
+}
+/*estilo da parte superior da tela*/
+.header{
+    padding: 20px;
+    text-align: center;
+    color: #f0f0f0;
+    background: #50945d;
+    width: 100%; 
+    font-size: 25px;
+}
+/*estilo dos botões de navegação pelas páginas*/
+nav{
+    display: flex;
+    text-decoration: none;
+    border-color: #284f30;
+    border-style: solid;
+    border-width: 10px;
+    border-bottom: 0px;      
+    background-color: #7dd38d;
+    color: black;
+    padding: 10px;
+    justify-content: space-around; 
+    font-size: 35px;
+}
+/*cor dos links*/
+a:link{
+    color: #f0f0f0;    
+}
+/*cor dos links quando passar o mouse em cima*/
+a:hover{
+    color: #4b4b4b;
+    text-shadow: #000000;    
+}
+/*estilo do texto do 'h1' dentro da div da classe do meio da página*/
+.texto1{
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+    padding-top: 50px;
+    font-size: 40px;
+    color: #f0f0f0;
+}
+/*estilo do texto do 'p' dentro da div da cladde do meio da página */
+.sobremim{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    color: #f0f0f0;
+}
+/*estilo da div do meio da página*/
+.miolo{
+    float: left;
+    width: 33.3%;
+    padding-bottom: 0px;
+    min-height: 658px;
+    background-color: #427c4d;
+}
+/*estilo da div da esquerda da página*/
+.left{
+    position: static;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    height: 505px;
+    align-content: center;
+    padding: 0px;
+}
+/*estilo da div da direita da página*/
+.right{
+    position: static;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    height: 505px;
+    align-content: center;
+    padding: 0px;
+}
+/*estilo da parte inferior da tela*/
+.rodape{
+    float: left;
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+    color: #dbdbdb;
+    background: #50945d;
+    width: 100%; 
+    font-size: 25px;
+}
+/*estilo da div 'contato'*/
+.contato{
+    text-align: center;
+}
+/*estilo do botão submit na página contato*/
+.botaosubmit{
+    width: 30%;
+    padding: 10px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #7dd38d;
+}
+/*estilo do botão submit quando passar o mouse em cima*/
+.botaosubmit:hover{
+    background-color: #409e51;
+}
+/*cor dos textos na página contato*/
+.textosinputs{
+    color: #f0f0f0;
+}
+/*estilo da parte de input dos textos nome e sobrenome*/
+.nomeinput{
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+/*estilo da parte de input do texto de email*/
+.emailinput{
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+/*estilo da caixa de mensagem na página de contato, não utilizado*/
+/*.caixainput{
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    height: auto;
+    overflow-wrap: normal;
+}*/
+/*estilo da caixa de mensagem na página de contato*/
+.mensagem{
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+    margin: 2px;
+}

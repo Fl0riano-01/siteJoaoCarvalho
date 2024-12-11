@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <!--parte superior da tela-->
+    <header class="header">
+        <h1>João Victor Floriano</h1>
+    </header>
+    <!--divisão dos links para as páginas do site-->
+    <nav class="nav">
+        <a href="index.html">Sobre mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <div>
+        <!--gatinho rodando na esquerda-->
+        <div class="left">
+            <img src="./img/maxwellspenner.gif" alt="maxwell">
+        </div>
+        <!--meio da página com todo o conteúdo-->
+        <div class="miolo">
+            <h1 class="texto1">Contato:<br></h1>
+            <p class="sobremim"><br><br><br><form>
+                <div class="contato">
+                    <label class="textosinputs" for="nome">Nome:</label><br>
+                    <input class="nomeinput" type="text" id="nome" name="nome" placeholder="Insira seu nome" required><br><br>
+                    <label class="textosinputs" for="sobrenome">Sobrenome:</label><br>
+                    <input class="nomeinput" type="text" id="sobrenome" name="sobrenome" placeholder="Insira seu sobrenome" required><br><br>
+                    <label class="textosinputs" for="email">Email:</label><br>
+                    <input class="emailinput" type="email" id="email" name="email" placeholder="insira seu E-mail" required><br><br>
+                    <!--tinha tentado fazer a caixa de texto com um input normal, mas n consegui, aí eu fiz como 'textarea' mas deixei comentado o erro mesmo-->
+                    <!--<label class="textosinputs" for="caixatexto">Deixe sua mensagem:</label><br>
+                    <input class="caixainput" type="text" id="caixatexto" name="caixatexto" placeholder="Digite sua mensagem" required><br><br>-->
+                    <label class="textosinputs" for="caixatexto">Deixe sua mensagem:</label><br>
+                    <textarea class="mensagem" name="" id="" rows="4" cols="30"></textarea><br><br>
+                    <input class="botaosubmit" type="submit"><br><br>
+                </div>
+            </form></p>
+        </div>
+        <!--gatinho rodando na direita-->
+        <div class="right">
+            <img src="./img/maxwellspenner.gif" alt="maxwell">
+        </div> 
+    </div>
+    <!--parte inferior da tela-->
+    <div class="baixo">
+        <h2 class="rodape">Desenvolvido por: João Carvalho; RU 4738379<br>Curso: Análise e Desenvolvimento de Sistemas<br>Centro Universitário Internacional <a href="https://www.uninter.com/" target="_blank">UNINTER</a>
+        </h2>
+    </div>
+
+</body>
+</html>
